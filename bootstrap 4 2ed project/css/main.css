@@ -1,0 +1,569 @@
+/* my main css
+    Designed by Nasser 
+    mainColor: #f7600e;
+*/
+
+/* Start Navbar */
+.bg-dark {
+	background-color: #000 !important;
+}
+
+.navbar .navbar-brand span:first-child {
+	color: #f6f6f6;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.navbar .navbar-brand span:last-child {
+	color: #f7600e;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+	margin-left: 25px;
+	font-size: 20px;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link {
+	color: #f7600e;
+
+}
+
+/* End Navbar */
+/* Start banner */
+.banner {
+	background-image: url(../img/header_stock.png);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner .overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(17, 17, 17, 0.8);
+	z-index: 2;
+}
+
+.banner .banner-inner {
+	color: #fff;
+	justify-content: center;
+	align-content: center;
+	z-index: 3;
+}
+
+.banner h2 {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.banner h2 span {
+	color: #f7600e;
+	;
+}
+
+.banner p {
+	font-size: 25px;
+	width: 60%;
+	margin: 20px auto 40px;
+}
+
+.banner a {
+	border: 1px #fff solid;
+	border-radius: 7px;
+	color: #fff;
+	margin-left: 30px;
+	padding: 8px 60px;
+	font-size: 14px;
+	transition: all 0.4s ease-in-out;
+}
+
+.banner a:hover {
+	text-decoration: none;
+	background-color: #f7600e;
+}
+.banner i{
+	position: absolute;
+    z-index: 10;
+	width:40px;
+	height: 40px;
+	line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    bottom: 20px;
+    border: 1px #dadada solid;
+    border-radius: 50%;
+	transition: all 0.4s ease-in-out;
+}
+.banner i:hover{
+	background-color: #f7600e;
+	color: #fff;
+	cursor: pointer;
+}
+
+/* End banner */
+/* Start Features */
+.features {
+	padding: 80px;
+}
+
+.features i {
+	color: #f7600e;
+	width: 120px;
+	height: 120px;
+	line-height: 120px;
+	border: 1px #dadada solid;
+	transition: all 0.3s ease-in-out;
+}
+.features i:hover{
+	color: #fff;
+	background-color:#f7600e;
+	cursor: pointer;
+}
+
+.features h4 {
+	font-size: 20px;
+	margin: 20px auto 25px;
+}
+
+.features p {
+	font-size: 18px;
+	line-height: 2;
+	color: #9b9b9b;
+	margin-bottom: 0;
+}
+
+/* End Features */
+/*   Start Subscribe */
+.subscribe {
+	background-image: url(../img/subscribe.png);
+	background-size: cover;
+	position: relative;
+
+}
+
+.subscribe .overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(17, 17, 17, 0.8);
+	z-index: 2;
+}
+
+.subscribe form {
+	padding: 100px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.subscribe form input {
+	padding: 10px 0;
+	border-radius: 10px;
+}
+
+.subscribe form input:first-of-type {
+	width: 280px;
+	padding-left: 10px;
+}
+
+.subscribe form input[type="submit"] {
+	margin-left: 20px;
+	background-color: #f7600e;
+	;
+	border: 2px #f7600e solid;
+	width: 150px;
+	color: #fff;
+	cursor: pointer;
+}
+
+/*   End Subscribe */
+/* Start our-work */
+.our-work {
+	padding: 80px;
+}
+
+.our-work .h1 {
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+
+.our-work .h1 span {
+	color: #f7600e;
+}
+
+.our-work .info {
+	width: 50%;
+	margin: 20px auto 40px;
+}
+
+.our-work .images-section {
+	padding: 10px 0 30px;
+}
+
+.our-work .item-box {
+	margin-bottom: 10px;
+
+}
+
+.our-work .row:last-of-type .item-box {
+	float: left;
+
+}
+
+.our-work .item {
+	position: relative;
+	border: 1px #fff solid;
+	border-radius: 10px;
+	overflow: hidden;
+	height: 400px;
+}
+
+.our-work .item .over {
+	color: #fff;
+	background-color: rgba(247, 96, 14, 0.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	display: none;
+	transition: all 0.3s ease-in-out;
+
+}
+
+.our-work .item:hover .over {
+	display: block;
+}
+
+.our-work .item .over h4 {
+	margin-top: 80px;
+	font-size: 24px;
+	margin-bottom: 0;
+}
+
+.our-work .item .over p {
+	margin: 20px auto 30px;
+	font-size: 18px;
+	line-height: 2;
+	width: 90%;
+}
+
+.our-work .over a {
+	color: #fff;
+	padding: 10px 25px;
+	border: 1px #fff solid;
+	border-radius: 6px;
+	transition: all 0.3s ease-in-out;
+}
+
+
+.our-work .over a:hover {
+	text-decoration: none;
+	background-color: #fff;
+	color: #f7600e;
+}
+
+.our-work button {
+	color: #000;
+	background-color: #fff;
+	padding: 10px 25px;
+	border: 1px #dadada solid;
+	border-radius: 6px;
+	transition: all 0.3s ease-in-out;
+}
+
+.our-work button:hover {
+	text-decoration: none;
+	background-color: #f7600e;
+	;
+	color: #fff;
+	cursor: pointer;
+}
+
+.hidden {
+	display: none;
+}
+
+/* End our-work */
+/* Start Testimonial */
+.testimonials {
+	padding: 50px;
+	background-image: url(../img/testimonials.png);
+	background-size: cover;
+	position: relative;
+}
+
+.testimonials .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(54, 54, 54, 0.9);
+	z-index: 2;
+
+}
+
+.testimonials .carousel {
+	z-index: 3;
+
+}
+
+.testimonials .carousel-item img {
+	max-width: 150px;
+}
+
+.testimonials .carousel-caption {
+	position: relative;
+	left: auto;
+	right: auto;
+	bottom: auto;
+	padding-top: 0;
+	font-size: 18px;
+
+}
+
+.testimonials .carousel-caption p {
+	margin: 20px auto 20px;
+	width: 50%;
+	font-style: italic;
+	line-height: 2;
+}
+
+.testimonials .carousel-control-prev,
+.testimonials .carousel-control-next {
+	z-index: 4;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	height: 100px;
+	width: 100px;
+	outline: black;
+	background-size: 100%, 100%;
+	border: none;
+	background-image: none;
+	font-weight: bold;
+}
+
+.carousel-control-next-icon {
+	font-size: 50px;
+	color: #999;
+}
+
+.carousel-control-prev-icon {
+	font-size: 50px;
+	color: #999;
+}
+
+.carousel-control-next-icon:hover,
+.carousel-control-prev-icon:hover {
+	color: #f7600e;
+
+}
+
+/* End Testimonial */
+
+/* Start Our team */
+.our-team {
+	padding: 80px;
+}
+
+.our-team .h1 {
+	font-weight: bold;
+}
+
+.our-team .h1 span {
+	color: #f7600e;
+}
+
+.our-team p.info {
+	color: #444;
+	width: 50%;
+	margin: 20px auto 20px;
+	font-size: 18px;
+	line-height: 2;
+
+}
+
+.our-team .member-team {
+	margin-bottom: 14px;
+}
+
+.our-team img {
+	width: 265px;
+	height: 290px;
+	filter: grayscale(1);
+}
+
+.our-team .team-member:hover img {
+	filter: grayscale(0);
+}
+
+.our-team h4 {
+	margin-top: 15px;
+	color: #979797;
+}
+
+.our-team .team-member:hover h4 {
+	color: #000;
+}
+
+.our-team i {
+	color: #979797;
+}
+
+.our-team .team-member:hover i.fa-facebook {
+	color: #4267b2;
+}
+
+.our-team .team-member:hover i.fa-twitter {
+	color: #a8f0ff;
+}
+
+.our-team .team-member:hover i.fa-google-plus {
+	color: #e53935;
+}
+
+/* End Our team */
+/* Start Contact */
+.contact {
+	padding: 100px;
+	color: #fff;
+	background-image: url(../img/city.png);
+	background-size: cover;
+	position: relative;
+}
+
+.contact .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(17, 17, 17, 0.8);
+	z-index: 2;
+
+}
+
+.contact .container {
+	position: relative;
+	z-index: 3;
+}
+
+.contact .h1 {
+	font-size: 44px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.contact .h1 span {
+	color: #f7600e;
+}
+
+.contact .info {
+	width: 50%;
+	line-height: 1.5;
+	margin: 0 auto 20px;
+
+}
+
+.contact form {
+	width: 60%;
+	margin: 20px auto;
+}
+
+.contact .input-text {
+	padding-right: 0;
+	padding-left: 4px;
+}
+
+.contact .input-text input {
+	width: 300px;
+	border-radius: 10px;
+	outline: 0;
+	height: 42px;
+	border: none;
+
+}
+.contact textarea{
+	margin: 20px auto 14px;
+	width: 624px;
+	border-radius: 10px;
+	height: 100px;
+	border: none;
+}
+
+.contact input[type="submit"]{
+	background-color: #f7600e;
+	color: #fff;
+	padding: 5px 50px;
+	border-radius: 10px;
+	float:left;
+	outline: none;
+	cursor: pointer;
+	border: none;
+	
+}
+
+.contact i {
+	color: #979797;
+	margin-left:5px;
+	float: right;
+}
+
+.contact i.fa-facebook {
+	color: #4267b2;
+}
+
+.contact i.fa-twitter {
+	color: #a8f0ff;
+}
+
+.contact i.fa-google-plus {
+	color: #e53935;
+}
+/* End Contact */
+
+/* Start Copyright */
+.copyright{
+	background-color: #000;
+	color: #fff;
+	padding: 25px;
+}
+.copyright p{
+	font-size: 18px;
+	margin-bottom: 0;
+}
+.copyright i{
+   z-index: 10;
+
+width: 25px;
+
+height: 25px;
+
+line-height: 25px;
+
+color: #fff;
+
+font-size: 20px;
+
+border: 1px #dadada solid;
+
+transition: all 0.4s ease-in-out;
+
+text-align: center;
+
+	margin-left: 10px;}
+.copyright i:hover{
+	background-color: #f7600e;
+	color: #fff;
+	cursor: pointer;
+}
+/* End Copyright */
+mainColor: #f7600e;
